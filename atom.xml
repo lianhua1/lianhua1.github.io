@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-03-25T17:50:54.620Z</updated>
+  <updated>2023-03-25T17:56:43.748Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>傅里叶函数计算</title>
+    <link href="http://example.com/2023/03/26/%E5%82%85%E9%87%8C%E5%8F%B6%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97/"/>
+    <id>http://example.com/2023/03/26/%E5%82%85%E9%87%8C%E5%8F%B6%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97/</id>
+    <published>2023-03-25T17:56:13.000Z</published>
+    <updated>2023-03-25T17:56:43.748Z</updated>
+    
+    <content type="html"><![CDATA[<p>傅里叶函数是一组基函数，可以用于将任意信号分解成一组正弦和余弦函数的和。傅里叶函数的计算可以通过快速傅里叶变换（FFT）算法来实现。以下是傅里叶函数计算的一般步骤：<br>将信号转换为时域信号，即将信号表示为时间的函数。<br>将时域信号转换为频域信号，即将信号表示为频率的函数。这可以通过傅里叶变换来实现，其中傅里叶变换可以分为离散傅里叶变换（DFT）和快速傅里叶变换（FFT）两种方法。DFT是一种直接计算傅里叶变换的方法，但是计算复杂度高，对于大型信号计算时间较长。FFT是一种优化的算法，可以在较短的时间内计算傅里叶变换。<br>对于信号的频域表示，可以通过选择适当的傅里叶函数来计算其系数。这可以通过将信号表示为一组正弦和余弦函数的和来实现。<br>将傅里叶函数系数转换为时域信号，即通过傅里叶逆变换将频域信号转换为时域信号。<br>在实际应用中，傅里叶函数计算可以用于信号处理、频谱分析、图像处理等领域。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;傅里叶函数是一组基函数，可以用于将任意信号分解成一组正弦和余弦函数的和。傅里叶函数的计算可以通过快速傅里叶变换（FFT）算法来实现。以下是傅里叶函数计算的一般步骤：&lt;br&gt;将信号转换为时域信号，即将信号表示为时间的函数。&lt;br&gt;将时域信号转换为频域信号，即将信号表示为频率的</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>泰勒公式应用</title>
