@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lian Hua</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-03-25T15:15:07.174Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Wenhao Xu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>阿杰是个什么玩意</title>
+    <link href="http://example.com/2023/03/25/%E9%98%BF%E6%9D%B0%E6%98%AF%E4%B8%AA%E4%BB%80%E4%B9%88%E7%8E%A9%E6%84%8F/"/>
+    <id>http://example.com/2023/03/25/%E9%98%BF%E6%9D%B0%E6%98%AF%E4%B8%AA%E4%BB%80%E4%B9%88%E7%8E%A9%E6%84%8F/</id>
+    <published>2023-03-25T15:09:49.000Z</published>
+    <updated>2023-03-25T15:15:07.174Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;沙雕&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
