@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-03-25T17:56:43.748Z</updated>
+  <updated>2023-03-25T18:04:29.339Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>超微分线性方程解法</title>
+    <link href="http://example.com/2023/03/26/%E8%B6%85%E5%BE%AE%E5%88%86%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E8%A7%A3%E6%B3%95/"/>
+    <id>http://example.com/2023/03/26/%E8%B6%85%E5%BE%AE%E5%88%86%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E8%A7%A3%E6%B3%95/</id>
+    <published>2023-03-25T18:04:03.000Z</published>
+    <updated>2023-03-25T18:04:29.339Z</updated>
+    
+    <content type="html"><![CDATA[<p>超微分线性方程指的是形如 $y^{(n)}+a{n-1}y^{(n-1)}+\cdots+a1y’+a0y=f(x)$ 的微分方程，其中 $y^{(n)}$ 表示 $y$ 的 $n$ 阶导数，$ai$ 为常数，$f(x)$ 是已知函数。</p><p>解超微分线性方程的一般步骤如下：</p><p>求出齐次线性微分方程的通解：$y^{(n)}+a{n-1}y^{(n-1)}+\cdots+a1y’+a0y=0$。这个方程的解法是先求出特征方程 $r^n+a{n-1}r^{n-1}+\cdots+a1r+a0=0$ 的根 $r1,r2,\cdots,rn$，然后通解为 $y=c1e^{r1x}+c2e^{r2x}+\cdots+cne^{rnx}$，其中 $c1,c2,\cdots,cn$ 为常数。</p><p>求出非齐次微分方程的一个特解。根据非齐次项 $f(x)$ 的形式，可以采用待定系数法、常数变易法、拉普拉斯变换等方法求出一个特解。</p><p>特解加上齐次方程的通解，即为非齐次线性微分方程的通解：$y=c1e^{r1x}+c2e^{r2x}+\cdots+cne^{rnx}+yp(x)$，其中 $yp(x)$ 是非齐次方程的一个特解。</p><p>需要注意的是，当非齐次项 $f(x)$ 中含有 $\sin x$、$\cos x$、$e^{ax}$ 等函数时，特解的形式应该根据 $f(x)$ 的具体形式进行选择。例如，当 $f(x)=\sin x$ 时，特解应该选择为 $y_p(x)=A\sin x+B\cos x$，其中 $A$ 和 $B$ 是待定系数。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;超微分线性方程指的是形如 $y^{(n)}+a{n-1}y^{(n-1)}+\cdots+a1y’+a0y=f(x)$ 的微分方程，其中 $y^{(n)}$ 表示 $y$ 的 $n$ 阶导数，$ai$ 为常数，$f(x)$ 是已知函数。&lt;/p&gt;
+&lt;p&gt;解超微分线性方程的一般</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>傅里叶函数计算</title>
